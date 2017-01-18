@@ -1,0 +1,10 @@
+Log File for 3D Robotics X8+ UAV:
+
+2017-1-18: 
+Objective: Pixhawk initial setup, mandatory hardware configuration
+Official website for mandatory hardware configuration:
+http://ardupilot.org/copter/docs/configuring-hardware.html
+Good video about Pixhawk initial setup:
+https://www.youtube.com/watch?v=uH2iCRA9G7k&t=1124s
+Tricks:
+I tried doing the Pixhawk setups several times down in the basement of GGBrown building, but I failed everytime. Most of times, I got stuck in the Compass Calibration step, Onboard Mag Calibration never works, Sometimes even Accel Calibration failed. I finally went outside near the old GGBrown Building, and set the fitness of Onboard Mag Calibration to Relaxed and it magically works out. GPS works fine and shows my location.
