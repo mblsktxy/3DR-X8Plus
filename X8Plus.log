@@ -2,9 +2,47 @@ Log File for 3D Robotics X8+ UAV:
 
 2017-1-18: 
 Objective: Pixhawk initial setup, mandatory hardware configuration
+
+I teared down X8+, connected the most basic component to Pixhawk, and did the initial setup and configuration as in the video below. I tried doing the Pixhawk setups several times down in the basement of GG Brown building, but I failed everytime. Most of times, I got stuck in the Compass Calibration step, Onboard Mag Calibration never works, Sometimes even Accel Calibration failed. I finally went outside near the old GG Brown Building, and set the fitness of Onboard Mag Calibration to Relaxed and it magically worked out. GPS worked fine and showed my location.
+
 Official website for mandatory hardware configuration:
 http://ardupilot.org/copter/docs/configuring-hardware.html
 Good video about Pixhawk initial setup:
 https://www.youtube.com/watch?v=uH2iCRA9G7k&t=1124s
-Tricks:
-I tried doing the Pixhawk setups several times down in the basement of GGBrown building, but I failed everytime. Most of times, I got stuck in the Compass Calibration step, Onboard Mag Calibration never works, Sometimes even Accel Calibration failed. I finally went outside near the old GGBrown Building, and set the fitness of Onboard Mag Calibration to Relaxed and it magically works out. GPS works fine and shows my location.
+
+2017-2-9:
+Objective: Preparation for the first flight
+
+I did the Compass Calibration again, it never passed the Default fitness. So I stick with Relaxed fitness.
+
+2017-2-15:
+Oojective: Tear down X8+, and check out the inside wire connections
+
+I completely teared down X8+ except the motors. Now I had a clearer understanding about the electrical components and the connections between them. Surprised to see that my X8+ is equipped with the FPV tool-set.
+
+Pixhawk Wiring:
+http://ardupilot.org/copter/docs/common-pixhawk-wiring-and-quick-start.html
+Ardupilot FPV:
+http://ardupilot.org/copter/docs/common-fpv-first-person-view.html 
+Minim OSD:
+http://ardupilot.org/copter/docs/common-minim-osd-quick-installation-guide.html
+
+2017-2-21:
+Objective: Assemble X8+ back
+
+I cleaned the dust inside X8+ and put it back. It accually took me the whole morning to assemble it back. Now it looks cleaner. Hope it is ready for the first flight.
+
+Gimbal installation:
+
+Motor rotations and propeller installation:
+http://ardupilot.org/copter/docs/connect-escs-and-motors.html
+
+2017-2-24:
+Objective: Clean up the case for X8+
+
+2017-2-28:
+Objective: First flight
+First flight was performed at 4:30am, X8+ crashed immediately after taking off. Reason is that motors do not start spinning in the same time. I found out that what I need to do is the Electronic Speed Controller (ESC) Calibration.
+
+ESC Calibration:
+http://ardupilot.org/copter/docs/esc-calibration.html
